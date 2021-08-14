@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+<<<<<<< HEAD
+=======
+            "name": "Attach",
+            "port": 9229,
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        
+        {
+>>>>>>> 00258f93c257b59ca33f5b95edb9cf8bd070a604
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+<<<<<<< HEAD
+            "program": "${file}\\js-problem-solving\\animal-count.js"
+=======
+            "program": "${file}"
+>>>>>>> 00258f93c257b59ca33f5b95edb9cf8bd070a604
+        }
+    ]
+}
