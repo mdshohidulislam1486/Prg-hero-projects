@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Walker x ROG</title>
+    <!-- Tailwind css link -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=kGufdE_mzzYMc3SV7vSxeE2fe2Yq0PDfjrcDPoL2-VccqqCXIrBPzh92P54c7wM5MPFxp9ihnnNt4CYPHorwZg" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9hdy14LXJvZy1heS5uZXRsaWZ5LmFwcC8"/></head>
+<body>
+    <header>
+        <h1 class="text-center text-7xl"><span class="text-blue-600">Alan Walker</span> X<span class="text-red-600"> ROG</span></h1>
+        <hr class="bg-gradient-to-r from-red-600 to-blue-600 h-2 w-3/4 mx-auto rounded-lg">
+    </header>
+    
+    <main>
+        <!-- SECTION 1 -->
+        <section class="grid grid-cols-1 md:grid-cols-2 w-3/4 mx-auto my-8">
+            <div>
+                <img class="w-3/4 mx-auto" src="images/laptop.png" alt="">
+            </div>
+            <div class="p-2">
+                <!-- Infromation section -->
+                <div>
+                    <h1 class="text-5xl font-bold">Customize your AW x ROG special edition laptop</h1>
+                    <p class="mt-4">Powerful, ultraportable gaming gets an Alan Walker-inspired makeover in the ROG Zephyrus G14 AW SE. The result of a special collaboration between ROG and superstar artist, DJ, and music producer Alan Walker, this slim and stylish laptop is loaded up with exclusive design touches that bring together the best of gaming and DJ cultures. Even the packaging defies expectations, with the built-in ROG Remix hands-on DJ experience. Game, create, and whip up your next hit remix with a laptop that’s truly one of a kind.</p>
+                </div>
+                <!-- Memory Section -->
+                <div class="my-4">
+                    <h1 class="text-2xl font-medium">Memory</h1>
+                    <button id="memory-12gb" class="mt-2 font-medium border-red-600 border-2 rounded-md p-4 hover:bg-red-600 hover:text-white">12gb unified memory</button>
+                    <button id="memory-16gb" class="mt-2 font-medium border-blue-600 border-2 rounded-md p-4 hover:bg-blue-600 hover:text-white">16gb unified memory</button>
+                </div>
+                <!-- Storage section -->
+                <div class="my-4">
+                    <h1 class="text-2xl font-medium">Storage</h1>
+                    <button id="storage-256gb" class="mt-2 font-medium border-red-600 border-2 rounded-md p-4 hover:bg-red-600 hover:text-white">256gb SSD storage</button>
+                    <button id="storage-512gb" class="mt-2 font-medium border-blue-600 border-2 rounded-md p-4 hover:bg-blue-600 hover:text-white">512gb SSD storage</button>
+                    <button id="storage-1tb" class="mt-2 font-medium border-red-600 border-2 rounded-md p-4 hover:bg-red-600 hover:text-white">1TB SSD storage</button>
+                </div>
+                <!-- Delivery section -->
+                <div class="my-4">
+                    <h1 class="text-2xl font-medium">Choose your delivery option</h1>
+                    <button id="delivery-normal" class="mt-2 mt-2 font-medium border-red-600 border-2 rounded-md p-4 hover:bg-red-600 hover:text-white">Friday, August 25 FREE Prime Delivery</button>
+                    <button id="delivery-fast" class="mt-2 font-medium border-blue-600 border-2 rounded-md p-4 hover:bg-blue-600 hover:text-white">Friday, August 21 Delivery charge $20</button>
+                </div>
+                <!-- Calculating price section -->
+                <div>
+                    <div class="flex justify-around mt-12">
+                        <div class="w-3/6 text-2xl font-medium">Best Price:</div>
+                        <div class="text-2xl font-medium">$<span id="best-price">1299</span></div>
+                    </div>
+                    <div class="flex justify-around mt-4">
+                        <div class="w-3/6 text-2xl font-medium">Extra Memory cost:</div>
+                        <div class="text-2xl font-medium">$<span id="memory-price">00</span></div>
+                    </div>
+                    <div class="flex justify-around mt-4">
+                        <div class="w-3/6 text-2xl font-medium">Extra Storage cost:</div>
+                        <div class="text-2xl font-medium">$<span id="storage-price">00</span></div>
+                    </div>
+                    <div class="flex justify-around mt-4">
+                        <div class="w-3/6 text-2xl font-medium">Delivery charge:</div>
+                        <div class="text-2xl font-medium">$<span id="delivery-price">00</span></div>
+                    </div>
+                    <hr class="mt-4 bg-gradient-to-r from-red-600 to-blue-600 h-2 w-100 mx-auto rounded-lg">
+                    <div class="flex justify-around mt-2">
+                        <div class="w-3/6 text-2xl font-medium mt-0">Total Price:</div>
+                        <div class="text-2xl font-medium">$<span id="normal-total-price">1299</span></div>
+                    </div>
+                </div>
+                <!-- Promo code section -->
+                <div class="mt-4">
+                    <h1 class="text-2xl">Add Promo Code</h1>
+                    <br>
+                    <input id="promo-code-input" class="px-4 py-2 border-2 border-red-600" type="text">
+                    <button id="promo-code-btn" class="px-4 py-2 bg-blue-600 rounded-md text-white hover:bg-red-600">Apply</button>
+                </div>
+            </div>
+        </section>
+        <hr class="border-2 border-gray-600 bg-gray-600 opacity-30 w-11/12 mx-auto">
+        <!-- SECTION 2 (Total Price Section) -->
+        <section class="mt-2">
+            <h1 class="text-center text-5xl font-medium">Total: $<span id="final-total-price">1299</span></h1>
+        </section>
+    </main>
+
+
+
+    <!-- Connecting js with html -->
+    <script src="new.js"></script>
+</body>
+</html>

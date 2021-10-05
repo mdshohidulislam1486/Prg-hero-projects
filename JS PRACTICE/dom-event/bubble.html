@@ -23,7 +23,7 @@
     <script>
         document.getElementById('second-item').addEventListener('click', function(even){
             console.log("second1 itme clicked ");
-            event.stopImmediatePropagation();
+            even.stopImmediatePropagation();
         })
         document.getElementById('second-item').addEventListener('click', function(even){
             console.log("second2 itme clicked ");

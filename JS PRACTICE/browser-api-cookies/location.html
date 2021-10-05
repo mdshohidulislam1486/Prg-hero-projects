@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Location</h1>
+    <button onclick='refreshPage()'>Refresh</button>
+    <button onclick="visitBa()">Visit PH</button>
+    <button onclick="history()">history</button>
+    
+</body>  
+
+<script>
+    // history is work like back and forward button of  browser 
+    const refreshPage=()=>{
+        location.reload();
+    }
+
+    const visitBa=()=>{
+        location.assign('https://backwardasia.com/')
+    }
+</script>
+</html>
+
+<!-- browser has a location property from where you can enter different parts of url  -->

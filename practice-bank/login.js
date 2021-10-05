@@ -5,5 +5,8 @@ document.getElementById('login-id').addEventListener('click', function(){
   
     if(userEmail == "naeemkhan1486@gmail.com" && userPass == "1922112"){
         window.location.href = 'banking.html'
+    } else {
+        const validationPara = document.getElementById('error-text');
+        validationPara.innerText ='Plese enter a viald email and password'
     }
 }) 
